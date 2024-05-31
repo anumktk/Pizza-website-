@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+/* .image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.Hero-heading {
+  font-family: "Dela Gothic One", Sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.Hero-heading-sm {
+  font-family: "Dela Gothic One", Sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+/* these settings are for slider margin
+.slick-slider div {
+  margin-right: 8px;
+  /* Adjust the value as per your preference */
+/* } */

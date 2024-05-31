@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'; // Assuming you have styles in this file
+import Navbar from './Components/Navbar';
+import Chatbot from './Components/Chatbot';
+import Hero from "./Components/Hero";
+import Deals from './Components/Deals';
+import Bestseller from "./Components/Bestseller";
+import Feedback from "./Components/Feedback";
+import Followus from "./Components/Followus";
+import Footer from "./Components/Footer";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      //  overflow-x-auto this property is used for controling the bottom scroll
+    <div className='overflow-x-auto'>
+      <Navbar/>
+    <Hero/>
+    <Deals/>
+    <Bestseller/>
+    <Feedback/>
+    <Followus/>
+    <Footer/>
+
+    <Chatbot/>
+</div>  
   );
 }
 
